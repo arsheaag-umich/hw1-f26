@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="icon" href="images/ann_arbor.ico">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css"> <!--bug 7-->
 
   <!--title spelling bug 1-->
   <title>Visit the Ann Arbor Art Museum</title>
@@ -21,18 +21,19 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="exhibit.html">Current Exhibits</a></li>
+        <li><a href="exhibits.html">Current Exhibits</a></li> <!--bug 9 s missing in exhibits-->
         <li><a href="hours.html">Hours and Admission</a></li>
         <!--bug2 li missing for plan yur visit-->
-        <li><a href="visit.html">Plan Your Visit</a></li>
+        <li><a href="visit.html">PLAN YOUR VISIT</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Plan Your Visit</h1>
+    <section> <!--Moved section in the line above bug 8-->
+    <h2>Plan Your Visit</h2>
 
-    <section>
+    
       <h3>Getting to the Museum</h3>
 
       <p>
@@ -61,7 +62,7 @@
     </section>
 
     <section>
-      <h2>Exploring Nearby Ann Arbor<h2>
+    <h2>Exploring Nearby Ann Arbor</h2> <!--exploring added-->
 
       <p>
         A museum visit can be part of a larger Ann Arbor outing. Visitors often combine the museum with a walk through Kerrytown, a meal on Main Street,
@@ -73,10 +74,11 @@
         with the city’s natural landscape.
       </p>
 
-      <ul>
+      <!--bug6 bullet points-->
+      <ul style="list-style-type: disc;">
         <li>Walk through downtown Ann Arbor before or after your visit.</li>
         <li>Explore Kerrytown shops and the Ann Arbor Farmers Market.</li>
-       Visit nearby theaters, galleries, and music venues.
+        <li>Visit nearby theaters, galleries, and music venues.</li>
         <li>Take a walk near the Huron River or Nichols Arboretum.</li>
       </ul>
     </section>
@@ -105,7 +107,8 @@
       </p>
 
       <p>
-        <strong>Backpacks should be worn on one shoulder or carried by hand to help protect artwork and other visitors.</p>
+        <strong>Backpacks should be worn on one shoulder or carried by hand to help protect artwork and other visitors.</strong>
+      </p>
     </section>
 
     <section>

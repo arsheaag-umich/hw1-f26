@@ -14,13 +14,13 @@
 <body>
   <header>
     <h1>Ann Arbor Art Museum</h1>
-    <!-- nav missing? -->
+    <!-- nav missing bug 1 -->
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="exhibits.html">Current Exhibits</a></li>
         <li class="active"><a href="hours.html">Hours and Admission</a></li>
-        <li><a>Plan Your Visit</a></li>
+        <li><a href="visit.html">Plan Your Visit</a></li> <!--bug 7 added link to visit page-->
       </ul>
     </nav>
   </header>
@@ -46,7 +46,7 @@
             <th scope="col">Day</th>
             <th scope="col">Hours</th>
             <th scope="col">Adult Admission</th>
-            Student Admission
+            <th scope="col">Student Admission</th> <!--corrected bug 2-->
             <th scope="col">Ann Arbor Visitor Notes</th>
           </tr>
         </thead>
@@ -70,8 +70,8 @@
           <tr>
             <th scope="row">Saturday</th>
             <td>9:00 AM – 6:00 PM</td>
-            $14
-            <td>$9</td>
+            <td>$14</td>
+            <td>$9</td> <!--bug3-->
             <td>Expect heavier traffic during football weekends and festivals</td>
           </tr>
 
@@ -87,7 +87,7 @@
     </section>
 
     <section>
-      <h4>Free Admission Days</h4>
+      <h2>Free Admission Days</h2> <!--bug4 corrected head no.-->
 
       <p>
         The museum offers free general admission on the first Sunday of every month. These days are designed to welcome Ann Arbor residents, students, families, and visitors who want to explore local culture without an admission cost.
@@ -113,9 +113,10 @@
 
     <section>
       <h2>Group Visits and School Programs</h2>
-
-
+      <!--bug 5 added p tag-->
+      <p>
         Groups of ten or more visitors should contact the museum in advance.Group reservations help staff prepare gallery guides, accessibility accommodations, and gathering spaces.
+      </p>
 
       <p>
         School groups can request tours connected to Ann Arbor history, public art, environmental studies, visual analysis, or careers in museums and cultural organizations.
@@ -124,13 +125,13 @@
       <p>Group leaders should arrive at least fifteen minutes early to check in before the scheduled visit.</p>
     </section>
   </main>
-
+  <footer> <!--bug 6 footer added -->
     <p>&copy; 2026 Ann Arbor Art Museum. All rights reserved.</p>
 
     <p>
       Email us at
       <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a>
     </p>
-
+  </footer>
 </body>
 </html>
